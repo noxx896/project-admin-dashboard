@@ -43,27 +43,9 @@ body, html {
 .content {
   background-color: #e5e7eb;
   display: grid;
-  grid-template: 1fr/1fr 1fr;
+  grid-template: 1fr/2fr 1fr;
 }
 
-.primary {
-  display: grid;
-  grid-template: 1fr 1fr 1fr 1fr/1fr 1fr;
-}
-
-.primary-content {
-  border: 1px solid red;
-  display: grid;
-}
-
-.primary-content-title {
-  grid-column: 1/3;
-}
-
-.secondary-content {
-  border: 1px solid red;
-  display: grid;
-}
 
 .dashboard {
   font-size: 2rem;
